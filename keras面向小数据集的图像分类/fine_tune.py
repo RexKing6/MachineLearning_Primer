@@ -6,7 +6,7 @@ from keras.layers import Dropout, Flatten, Dense
 
 top_model_weights_path = 'bottleneck_fc_model.h5'
 
-img_width, img_height = 150, 150
+img_width, img_height = 224, 224
 
 train_data_dir = 'data/train'
 validation_data_dir = 'data/validation'
